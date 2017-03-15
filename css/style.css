@@ -1,4 +1,51 @@
 body{
 	background-color: dimgray;
-	font-family: "arial Arrow";
+	font-family: "arial narrow";
+	font-size: 14px;
+	width: 100%;
+	min-width: 50%
+	max-width:100%;
+}
+section{
+	width: 50%;
+	min-width: 50%;
+	height: 330px;
+	border: 3px solid yellow;
+	margin:0 auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: crfnflowerblue;
+	box-shadow: 14 px 12 px black;
+	border-radius: 4px;
+}
+section form{
+	background-color: crimson;
+	border:10px;
+	width: 80%;
+
+	min-width: 50%;
+	height: 240px;
+
+	border: 10px solid black;
+	margin: 0 auto;
+	margin-top: 5%;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	white-space: pre-line;
+	box-shadow: 4px 3px 3px white;
+
+}
+#v_user_css{
+	display: inline-block;
+	width: 95%;
+	height: 30px;
+
+}
+#v_pass_css{
+	 width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }

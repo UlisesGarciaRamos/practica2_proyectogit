@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>  
         <title>Proyecto - Desarrollo web</title>  
         <link rel="stylesheet" type="text/css" href="css/estilos.css">  
+         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
         <link rel="shortcut icon" href="favicon"/>  
     </head>  
     <body>  
@@ -21,8 +22,10 @@
         </header>  
         <section>  
            <form action="panel.php" method="post" name="fm1" id="fmicss">
-                <input type="text" name="v_user" placeholder="USUARIO">
-
+                <input type="text" name="v_user" id="v_user_css" placeholder="USUARIO" required="required">
+                <input type="text" name="v_password" id="v_user_css" placeholder="CONTRASEÑA" required="required">
+                <div class="btn_enviar"></div>
+                <input type="submit"  name="btn_ingresar" value="iniciar sesión">
            </form>
         </section>  
         <aside>  
