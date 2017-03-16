@@ -41,6 +41,10 @@ section form{
 	display: inline-block;
 	width: 95%;
 	height: 30px;
+	font-size: 1.5m;
+	text-align: center;
+	border-image: url('./')
+	background-repeat:no-repeat;
 
 }
 #v_pass_css{
